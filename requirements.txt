@@ -1,0 +1,17 @@
+# Core dependencies
+numpy>=1.23
+opencv-python>=4.6
+tqdm>=4.64
+scikit-learn>=1.2
+scipy>=1.9
+
+# Optional but recommended for better embeddings (ResNet)
+# Uncomment one of the following two lines depending on your machine.
+# CPU-only PyTorch (works everywhere):
+#torch>=1.13.1; torchvision>=0.14.1 --index-url https://download.pytorch.org/whl/cpu
+
+
+# More recommended if you have a compatible GPU:
+# GPU (CUDA) users: install the correct torch/cuXX wheel from https://pytorch.org/get-started/locally/
+# Example (do NOT blindly copy if your CUDA is different):
+torch>=2.0.0; torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cu118
