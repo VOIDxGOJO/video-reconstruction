@@ -12,7 +12,7 @@ This project reconstructs a **completely shuffled video** back into its **correc
 ✔ Motion-flow–based orientation correction  
 ✔ Optional post-processing (reverse/rotate)  
 
-This repository was built as part of an **internship technical task**, designed to demonstrate strong skills in:
+This repository is designed to demonstrate strong skills in:
 
 - Computer Vision  
 - Optimization  
@@ -176,6 +176,7 @@ Global optimization
 Local refinement
 Automatic direction correction
 Which makes it accurate across many types of videos — indoor, outdoor, fast/slow motion, static scenes, etc.
+
 
 
 
